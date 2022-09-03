@@ -1,0 +1,209 @@
+!Workspace
+!Version  780
+!Charset WindowsLatin1
+Open Table "Bien" As Bien Interactive
+Open Table "Dam" As Dam Interactive
+Open Table "DuongDongMuc" As DuongDongMuc Interactive
+Open Table "DuongGiaoThong" As DuongGiaoThong Interactive
+Open Table "Grid" As Grid Interactive
+Open Table "Khung" As Khung Interactive
+Open Table "KimChiBac" As KimChiBac Interactive
+Open Table "NhaDocLap" As NhaDocLap Interactive
+Open Table "RanhGioi" As RanhGioi Interactive
+Open Table "SongSuoi" As SongSuoi Interactive
+Open Table "ThuocDoTyLe" As ThuocDoTyLe Interactive
+Open Table "XuanLap_D49_87_C.TAB" As XuanLap_D49_87_C Interactive
+Map From Khung,Grid,RanhGioi,NhaDocLap,SongSuoi,
+  DuongGiaoThong,DuongDongMuc,Bien,ThuocDoTyLe,KimChiBac,Dam,XuanLap_D49_87_C 
+  Position (0.0520833,0.0520833) Units "in"
+  Width 7.41667 Units "in" Height 3.69792 Units "in" 
+Set Window FrontWindow() ScrollBars Off Autoscroll On
+Set Map
+  CoordSys Earth Projection 8, 104, "m", 111, 0, 0.9996, 500000, 0
+  Center (302239.5288,1345671.396)
+  Zoom 32066.4632 Units "m"
+  Preserve Zoom Display Zoom
+  Distance Units "m" Area Units "sq km" XY Units "m"
+Set Map
+  Layer 1
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 2
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With DMS
+      Parallel On Auto On Overlap Off Duplicates Off Offset 2
+      Visibility Zoom (0, 100000) Units "m"
+   Object 17 Font ("Arial",0,7,0) Anchor (308992.44638947019,1353955.9461945503) Angle 0 
+   Object 15 Font ("Arial",0,7,0) Anchor (306994.83288786042,1353956.5560704118) Angle 0 
+   Object 13 Font ("Arial",0,7,0) Anchor (304994.82809140475,1353956.5560704118) Angle 0 
+   Object 11 Font ("Arial",0,7,0) Anchor (302994.83154079341,1353956.5560704118) Angle 0 
+   Object 9 Font ("Arial",0,7,0) Anchor (300994.8267443378,1353956.5560704118) Angle 0 
+   Object 7 Font ("Arial",0,7,0) Anchor (298994.83019372646,1353956.5560704118) Angle 0 
+   Object 5 Font ("Arial",0,7,0) Anchor (296994.83364311513,1353956.5560704118) Angle 0 
+   Object 3 Font ("Arial",0,7,0) Anchor (294994.82884665945,1353956.5560704118) Angle 0 
+   Object 1 Font ("Arial",0,7,0) Anchor (292994.83229604812,1353956.5560704118) Angle 0 
+   Object 33 Font ("Arial",0,7,0) Anchor (292996.30005633284,1353103.3197441911) Angle 90 
+   Object 16 Anchor (308392.19839978905,1355741.0828351653) Visibility Off
+   Object 14 Anchor (306392.19360333344,1355741.0828351653) Visibility Off
+   Object 12 Anchor (304392.1970527221,1355741.0828351653) Visibility Off
+   Object 10 Anchor (302392.20050211076,1355741.0828351653) Visibility Off
+   Object 8 Anchor (300392.19570565509,1355741.0828351653) Visibility Off
+   Object 6 Anchor (298392.19915504375,1355741.0828351653) Visibility Off
+   Object 4 Anchor (296392.19435858814,1355741.0828351653) Visibility Off
+   Object 2 Anchor (294392.1978079768,1355741.0828351653) Visibility Off
+   Object 19 Font ("Arial",0,7,0) Anchor (292996.30005633284,1339103.3194036509) Angle 90 
+   Object 21 Font ("Arial",0,7,0) Anchor (292996.30005633284,1341103.322308861) Angle 90 
+   Object 23 Font ("Arial",0,7,0) Anchor (292996.30005633284,1343103.3152161059) Angle 90 
+   Object 25 Font ("Arial",0,7,0) Anchor (292996.30005633284,1345103.3181213159) Angle 90 
+   Object 27 Font ("Arial",0,7,0) Anchor (292996.30005633284,1347103.3210265259) Angle 90 
+   Object 29 Font ("Arial",0,7,0) Anchor (292996.30005633284,1349103.3239317359) Angle 90 
+   Object 31 Font ("Arial",0,7,0) Anchor (292996.30005633284,1351103.3168389811) Angle 90 
+   Object 18 Visibility Off
+   Object 20 Visibility Off
+   Object 22 Visibility Off
+   Object 24 Visibility Off
+   Object 26 Visibility Off
+   Object 28 Visibility Off
+   Object 30 Visibility Off
+   Object 32 Visibility Off
+   Object 34 Visibility Off
+  Layer 3
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 4
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Right Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ToaDo_X
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 5
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With TenSongSuoi
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 6
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With LoaiDuong
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 7
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 8
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line Arrow Position Above Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates Off Offset 2
+      Visibility On
+  Layer 9
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 10
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ID
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 11
+    Display Graphic
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Label Line None Position Center Font ("Arial",0,9,0) Pen (1,2,0) 
+      With ToaDo_X
+      Parallel On Auto Off Overlap Off Duplicates On Offset 2
+      Visibility On
+  Layer 12
+    Display Off
+    Global Pen (1,2,0)  Brush (2,16777215,16777215)  Symbol (35,0,12)  Line (1,2,0)  Font ("Arial",0,9,0)
+    Selectable Off
+    Zoom (110, 42000) Units "m" 
+  contrast 50 
+  brightness 50 
+  alpha 255 
+    transparency off 
+  color 0 
+    grayscale off 
+Set Map Layer 0 Editable
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 10.0" Orientation Portrait Copies 1
+ Papersize 1
+Create Cartographic Legend
+  Position (-0.0833333,-0.322917) Units "in"
+  Width 0 Units "in" Height 0 Units "in" 
+  Window Title "Chuù giaûi"
+  Custom
+  Style Size Large
+  Default Frame Title "# Legend" Font ("Arial",0,10,0)
+  Default Frame Style "%" Font ("Arial",0,8,0)
+  Frame From Layer 3
+    Position (35.2917,567.802) Units "in"
+    Border Pen (0,1,0) 
+    Title ""
+    Using Column object 
+    Style Font ("VNI-Times",1,12,0)
+      Text "Ñòa giôùi huyeän" Line Pen (2,15,0) 
+      Text "Ñòa giôùi tænh" Line Pen (3,19,0) 
+      Text "Ñòa giôùi ñaõ xaùc ñònh" Line Pen (2,7,0) 
+  Frame From Layer 4
+    Position (31.3021,568.357) Units "in"
+    Border Pen (0,1,0) 
+    Title ""
+    Using Column object 
+    Style Font ("VNI-Times",1,12,0)
+      Text "Nhaø ñoäc laäp" Symbol (41,0,3,"MapInfo Cartographic",0,0) 
+      Text "" Line Pen (3,2,0) 
+  Frame From Layer 5
+    Position (31.2812,567.996) Units "in"
+    Border Pen (0,1,0) 
+    Title ""
+    Using Column object 
+    Style Font ("VNI-Times",1,12,0)
+      Text "Soâng" Line Pen (2,2,32960) 
+      Text "Soâng theo muøa" Line Pen (2,7,32960) 
+      Text "Ñaàm, hoà" Region Pen (3,2,32960)  Brush (2,8443391,16777215) 
+  Frame From Layer 6
+    Position (31.2813,567.125) Units "in"
+    Border Pen (0,1,0) 
+    Title ""
+    Using Column object 
+    Style Font ("VNI-Times",1,12,0)
+      Text "Ñöôøng nhöïa" Line Pen (5,2,11579392) 
+  Frame From Layer 7
+    Position (35.2812,568.336) Units "in"
+    Border Pen (0,1,0) 
+    Title ""
+    Using Column object 
+    Style Font ("VNI-Times",1,12,0)
+      Text "Ñöôøng ñoàng möùc con" Line Pen (1,2,16734240) 
+      Text "Ñöôøng ñoàng möùc meï" Line Pen (3,2,16734240) 
+Set Window FrontWindow() Printer
+ Name "MapInfo PDF Printer Version 10.0" Orientation Portrait Copies 1
+ Papersize 1
+Dim WorkspaceMaximizedWindow As Integer
+WorkspaceMaximizedWindow = Frontwindow()
+Set Window WorkspaceMaximizedWindow Max
+Undim WorkspaceMaximizedWindow

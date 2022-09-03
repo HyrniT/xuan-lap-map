@@ -1,0 +1,11 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 4
+    ToaDo_X Decimal (10, 5) ;
+    ToaDo_Y Decimal (10, 5) ;
+    ChuVi_m Float ;
+    DienTich_m2 Float ;

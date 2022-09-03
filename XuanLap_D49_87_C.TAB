@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "xuanlap_d49_87_c.jpg"
+  Type "RASTER"
+  (293000,1354000) (58,60) Label "Pt 1",
+  (309000,1354000) (3856,61) Label "Pt 2",
+  (309000,1338000) (3854,3851) Label "Pt 3",
+  (293000,1338000) (55,3849) Label "Pt 4"
+  CoordSys Earth Projection 8, 104, "m", 111, 0, 0.9996, 500000, 0
+  Units "m"

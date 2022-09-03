@@ -1,0 +1,10 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "Neutral"
+  Fields 3
+    ID Integer Index 1 ;
+    DoCao_m Integer ;
+    DoDai_m Float ;
